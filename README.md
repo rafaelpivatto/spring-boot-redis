@@ -1,22 +1,22 @@
-#POC Spring boot + redis
+# POC Spring boot + redis
 A simple CRUD with spring boot using redis as repository.
 
-#### Requirements:
+### Requirements:
 - Java 8+
 - Docker
 
-#### Setup:
+### Setup:
 
 > mvn install
 
 in docker-images:
 > docker-compose up --build 
 
-#### To run
+### To run
 
 > mvn spring-boot:run
 
-#### Operations:
+### Operations:
 > - [POST] in "/" to create with body: 
 ~~~~
 {
